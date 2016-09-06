@@ -3,7 +3,7 @@ body{
 }
 div.container{
     display: table;
-    background-image: url(background.jpg);
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -19,6 +19,11 @@ div.sub-container{
    
 
 }
+span .logo{
+    width: 20em;
+    height: 20em;
+    border-radius: 5em;
+}
 .sub-container h1{
     font-size: 4em;
     font-family: 'Sansita';
@@ -29,6 +34,37 @@ div.sub-container{
     font-family: 'Sansita';
     color: grey;
 }
+a.button{
+    text-decoration: none;
+
+}
+a.button span{
+ 
+  background: #BBBBBB;
+  border: 0.1px solid #8f9da6;
+  border-radius: 28px;
+  box-shadow: 0 8px 6px -6px black;
+  font-family: Arial;
+  color: grey;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Sansita';
+    
+}
+a.button span:hover{
+   border-top-color: #8f9da6;
+   background: #8f9da6;
+   color: #e2ebea;
+
+ 
+  
+}
+
+a.button span:active {
+   border-top-color: #80a2b8;
+   background: #80a2b8;
+   }
 @font-face{
     font-family: 'junegull';
     src: url('./font/junegull.ttf') format('truetype');
