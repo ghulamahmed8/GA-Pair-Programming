@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+div.container{
+    display: table;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+
+}
+div.sub-container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+   
+
+}
+.sub-container h1{
+    font-size: 4em;
+    font-family: 'Sansita';
+    color: grey;
+}
+.sub-container h2{
+    font-size: 3em;
+    font-family: 'Sansita';
+    color: grey;
+}
+@font-face{
+    font-family: 'junegull';
+    src: url('./font/junegull.ttf') format('truetype');
+    
+}
+@font-face{
+    font-family: 'Sansita';
+    src: url('./font/SansitaOne.ttf') format('truetype');
+    
+}
